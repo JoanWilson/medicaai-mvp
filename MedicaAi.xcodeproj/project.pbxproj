@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		854966F1281973AD008C5038 /* MedicineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854966F0281973AD008C5038 /* MedicineView.swift */; };
+		85A47EE82818682800FB353D /* MedicaAiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A47EE72818682800FB353D /* MedicaAiApp.swift */; };
+		85A47EEA2818682800FB353D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A47EE92818682800FB353D /* ContentView.swift */; };
+		85A47EEC2818682900FB353D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A47EEB2818682900FB353D /* Assets.xcassets */; };
+		85A47EEF2818682900FB353D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A47EEE2818682900FB353D /* Preview Assets.xcassets */; };
+		85A47EF92818682900FB353D /* MedicaAiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A47EF82818682900FB353D /* MedicaAiTests.swift */; };
+		85A47F032818682900FB353D /* MedicaAiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A47F022818682900FB353D /* MedicaAiUITests.swift */; };
+		85A47F052818682900FB353D /* MedicaAiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A47F042818682900FB353D /* MedicaAiUITestsLaunchTests.swift */; };
+		85A47F13281868E400FB353D /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A47F12281868E400FB353D /* SplashScreenView.swift */; };
+		85A47F1528186BD100FB353D /* SearchingMedicineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A47F1428186BD100FB353D /* SearchingMedicineView.swift */; };
+		85A47F172818744A00FB353D /* TabManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A47F162818744A00FB353D /* TabManagerView.swift */; };
+		85A47F1A281876A800FB353D /* SavedMedicinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A47F19281876A700FB353D /* SavedMedicinesView.swift */; };
+		85A47F1C281876B300FB353D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A47F1B281876B300FB353D /* SettingsView.swift */; };
+		85A47F1F28187E6100FB353D /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A47F1E28187E6100FB353D /* Medicine.swift */; };
+		85A47F2128187EC200FB353D /* HealthCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A47F2028187EC200FB353D /* HealthCenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85A47EF52818682900FB353D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85A47EDC2818682800FB353D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85A47EE32818682800FB353D;
+			remoteInfo = MedicaAi;
+		};
+		85A47EFF2818682900FB353D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85A47EDC2818682800FB353D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85A47EE32818682800FB353D;
+			remoteInfo = MedicaAi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		854966F0281973AD008C5038 /* MedicineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineView.swift; sourceTree = "<group>"; };
+		85A47EE42818682800FB353D /* MedicaAi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicaAi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A47EE72818682800FB353D /* MedicaAiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicaAiApp.swift; sourceTree = "<group>"; };
+		85A47EE92818682800FB353D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85A47EEB2818682900FB353D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85A47EEE2818682900FB353D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85A47EF42818682900FB353D /* MedicaAiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicaAiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A47EF82818682900FB353D /* MedicaAiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicaAiTests.swift; sourceTree = "<group>"; };
+		85A47EFE2818682900FB353D /* MedicaAiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicaAiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A47F022818682900FB353D /* MedicaAiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicaAiUITests.swift; sourceTree = "<group>"; };
+		85A47F042818682900FB353D /* MedicaAiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicaAiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85A47F12281868E400FB353D /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		85A47F1428186BD100FB353D /* SearchingMedicineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingMedicineView.swift; sourceTree = "<group>"; };
+		85A47F162818744A00FB353D /* TabManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabManagerView.swift; sourceTree = "<group>"; };
+		85A47F19281876A700FB353D /* SavedMedicinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedMedicinesView.swift; sourceTree = "<group>"; };
+		85A47F1B281876B300FB353D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		85A47F1E28187E6100FB353D /* Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		85A47F2028187EC200FB353D /* HealthCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCenter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85A47EE12818682800FB353D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A47EF12818682900FB353D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A47EFB2818682900FB353D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85A47EDB2818682800FB353D = {
+			isa = PBXGroup;
+			children = (
+				85A47EE62818682800FB353D /* MedicaAi */,
+				85A47EF72818682900FB353D /* MedicaAiTests */,
+				85A47F012818682900FB353D /* MedicaAiUITests */,
+				85A47EE52818682800FB353D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85A47EE52818682800FB353D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85A47EE42818682800FB353D /* MedicaAi.app */,
+				85A47EF42818682900FB353D /* MedicaAiTests.xctest */,
+				85A47EFE2818682900FB353D /* MedicaAiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85A47EE62818682800FB353D /* MedicaAi */ = {
+			isa = PBXGroup;
+			children = (
+				85A47F1D28187E4400FB353D /* Models */,
+				85A47F11281868D400FB353D /* Views */,
+				85A47EE72818682800FB353D /* MedicaAiApp.swift */,
+				85A47EE92818682800FB353D /* ContentView.swift */,
+				85A47EEB2818682900FB353D /* Assets.xcassets */,
+				85A47EED2818682900FB353D /* Preview Content */,
+			);
+			path = MedicaAi;
+			sourceTree = "<group>";
+		};
+		85A47EED2818682900FB353D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				85A47EEE2818682900FB353D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85A47EF72818682900FB353D /* MedicaAiTests */ = {
+			isa = PBXGroup;
+			children = (
+				85A47EF82818682900FB353D /* MedicaAiTests.swift */,
+			);
+			path = MedicaAiTests;
+			sourceTree = "<group>";
+		};
+		85A47F012818682900FB353D /* MedicaAiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85A47F022818682900FB353D /* MedicaAiUITests.swift */,
+				85A47F042818682900FB353D /* MedicaAiUITestsLaunchTests.swift */,
+			);
+			path = MedicaAiUITests;
+			sourceTree = "<group>";
+		};
+		85A47F11281868D400FB353D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85A47F12281868E400FB353D /* SplashScreenView.swift */,
+				85A47F1428186BD100FB353D /* SearchingMedicineView.swift */,
+				85A47F162818744A00FB353D /* TabManagerView.swift */,
+				85A47F19281876A700FB353D /* SavedMedicinesView.swift */,
+				85A47F1B281876B300FB353D /* SettingsView.swift */,
+				854966F0281973AD008C5038 /* MedicineView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		85A47F1D28187E4400FB353D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				85A47F1E28187E6100FB353D /* Medicine.swift */,
+				85A47F2028187EC200FB353D /* HealthCenter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85A47EE32818682800FB353D /* MedicaAi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A47F082818682900FB353D /* Build configuration list for PBXNativeTarget "MedicaAi" */;
+			buildPhases = (
+				85A47EE02818682800FB353D /* Sources */,
+				85A47EE12818682800FB353D /* Frameworks */,
+				85A47EE22818682800FB353D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicaAi;
+			productName = MedicaAi;
+			productReference = 85A47EE42818682800FB353D /* MedicaAi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85A47EF32818682900FB353D /* MedicaAiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A47F0B2818682900FB353D /* Build configuration list for PBXNativeTarget "MedicaAiTests" */;
+			buildPhases = (
+				85A47EF02818682900FB353D /* Sources */,
+				85A47EF12818682900FB353D /* Frameworks */,
+				85A47EF22818682900FB353D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85A47EF62818682900FB353D /* PBXTargetDependency */,
+			);
+			name = MedicaAiTests;
+			productName = MedicaAiTests;
+			productReference = 85A47EF42818682900FB353D /* MedicaAiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85A47EFD2818682900FB353D /* MedicaAiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A47F0E2818682900FB353D /* Build configuration list for PBXNativeTarget "MedicaAiUITests" */;
+			buildPhases = (
+				85A47EFA2818682900FB353D /* Sources */,
+				85A47EFB2818682900FB353D /* Frameworks */,
+				85A47EFC2818682900FB353D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85A47F002818682900FB353D /* PBXTargetDependency */,
+			);
+			name = MedicaAiUITests;
+			productName = MedicaAiUITests;
+			productReference = 85A47EFE2818682900FB353D /* MedicaAiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85A47EDC2818682800FB353D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					85A47EE32818682800FB353D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					85A47EF32818682900FB353D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 85A47EE32818682800FB353D;
+					};
+					85A47EFD2818682900FB353D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 85A47EE32818682800FB353D;
+					};
+				};
+			};
+			buildConfigurationList = 85A47EDF2818682800FB353D /* Build configuration list for PBXProject "MedicaAi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85A47EDB2818682800FB353D;
+			productRefGroup = 85A47EE52818682800FB353D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85A47EE32818682800FB353D /* MedicaAi */,
+				85A47EF32818682900FB353D /* MedicaAiTests */,
+				85A47EFD2818682900FB353D /* MedicaAiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85A47EE22818682800FB353D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A47EEF2818682900FB353D /* Preview Assets.xcassets in Resources */,
+				85A47EEC2818682900FB353D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A47EF22818682900FB353D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A47EFC2818682900FB353D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85A47EE02818682800FB353D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A47F1C281876B300FB353D /* SettingsView.swift in Sources */,
+				85A47F1A281876A800FB353D /* SavedMedicinesView.swift in Sources */,
+				85A47F172818744A00FB353D /* TabManagerView.swift in Sources */,
+				85A47EEA2818682800FB353D /* ContentView.swift in Sources */,
+				854966F1281973AD008C5038 /* MedicineView.swift in Sources */,
+				85A47F2128187EC200FB353D /* HealthCenter.swift in Sources */,
+				85A47EE82818682800FB353D /* MedicaAiApp.swift in Sources */,
+				85A47F13281868E400FB353D /* SplashScreenView.swift in Sources */,
+				85A47F1528186BD100FB353D /* SearchingMedicineView.swift in Sources */,
+				85A47F1F28187E6100FB353D /* Medicine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A47EF02818682900FB353D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A47EF92818682900FB353D /* MedicaAiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A47EFA2818682900FB353D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A47F052818682900FB353D /* MedicaAiUITestsLaunchTests.swift in Sources */,
+				85A47F032818682900FB353D /* MedicaAiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85A47EF62818682900FB353D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85A47EE32818682800FB353D /* MedicaAi */;
+			targetProxy = 85A47EF52818682900FB353D /* PBXContainerItemProxy */;
+		};
+		85A47F002818682900FB353D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85A47EE32818682800FB353D /* MedicaAi */;
+			targetProxy = 85A47EFF2818682900FB353D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		85A47F062818682900FB353D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85A47F072818682900FB353D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85A47F092818682900FB353D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MedicaAi/Preview Content\"";
+				DEVELOPMENT_TEAM = F2MBMJ3PK6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.joan.wilson.MedicaAi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85A47F0A2818682900FB353D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MedicaAi/Preview Content\"";
+				DEVELOPMENT_TEAM = F2MBMJ3PK6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.joan.wilson.MedicaAi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85A47F0C2818682900FB353D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2MBMJ3PK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.joan.wilson.MedicaAiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicaAi.app/MedicaAi";
+			};
+			name = Debug;
+		};
+		85A47F0D2818682900FB353D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2MBMJ3PK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.joan.wilson.MedicaAiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicaAi.app/MedicaAi";
+			};
+			name = Release;
+		};
+		85A47F0F2818682900FB353D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2MBMJ3PK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.joan.wilson.MedicaAiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedicaAi;
+			};
+			name = Debug;
+		};
+		85A47F102818682900FB353D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2MBMJ3PK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.joan.wilson.MedicaAiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedicaAi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85A47EDF2818682800FB353D /* Build configuration list for PBXProject "MedicaAi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A47F062818682900FB353D /* Debug */,
+				85A47F072818682900FB353D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85A47F082818682900FB353D /* Build configuration list for PBXNativeTarget "MedicaAi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A47F092818682900FB353D /* Debug */,
+				85A47F0A2818682900FB353D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85A47F0B2818682900FB353D /* Build configuration list for PBXNativeTarget "MedicaAiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A47F0C2818682900FB353D /* Debug */,
+				85A47F0D2818682900FB353D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85A47F0E2818682900FB353D /* Build configuration list for PBXNativeTarget "MedicaAiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A47F0F2818682900FB353D /* Debug */,
+				85A47F102818682900FB353D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85A47EDC2818682800FB353D /* Project object */;
+}
