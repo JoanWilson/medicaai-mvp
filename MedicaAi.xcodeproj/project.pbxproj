@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8522FB242819CCF700E80819 /* MedicineMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8522FB232819CCF700E80819 /* MedicineMapView.swift */; };
 		854966F1281973AD008C5038 /* MedicineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854966F0281973AD008C5038 /* MedicineView.swift */; };
 		85A47EE82818682800FB353D /* MedicaAiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A47EE72818682800FB353D /* MedicaAiApp.swift */; };
 		85A47EEA2818682800FB353D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A47EE92818682800FB353D /* ContentView.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8522FB232819CCF700E80819 /* MedicineMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineMapView.swift; sourceTree = "<group>"; };
 		854966F0281973AD008C5038 /* MedicineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineView.swift; sourceTree = "<group>"; };
 		85A47EE42818682800FB353D /* MedicaAi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicaAi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A47EE72818682800FB353D /* MedicaAiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicaAiApp.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				85A47F19281876A700FB353D /* SavedMedicinesView.swift */,
 				85A47F1B281876B300FB353D /* SettingsView.swift */,
 				854966F0281973AD008C5038 /* MedicineView.swift */,
+				8522FB232819CCF700E80819 /* MedicineMapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				85A47EE82818682800FB353D /* MedicaAiApp.swift in Sources */,
 				85A47F13281868E400FB353D /* SplashScreenView.swift in Sources */,
 				85A47F1528186BD100FB353D /* SearchingMedicineView.swift in Sources */,
+				8522FB242819CCF700E80819 /* MedicineMapView.swift in Sources */,
 				85A47F1F28187E6100FB353D /* Medicine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

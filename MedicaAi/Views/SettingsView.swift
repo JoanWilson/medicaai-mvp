@@ -37,7 +37,6 @@ struct SettingsView: View {
             }
             .listStyle(.inset)
             .navigationTitle("Configurações")
-        
             
         }
     }

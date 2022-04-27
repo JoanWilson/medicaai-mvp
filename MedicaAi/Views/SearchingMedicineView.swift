@@ -19,7 +19,8 @@ struct SearchingMedicineView: View {
                 Section {
                     ForEach(searchMedicineResults, id: \.self) { medicine in
                         NavigationLink {
-                            MedicineView(medicineName: medicine)
+                            MedicineMapView()
+//                            MedicineView(medicineName: medicine)
                         } label: {
                             Text(medicine)
                         }
@@ -34,6 +35,7 @@ struct SearchingMedicineView: View {
             .navigationTitle("Remédios Salvos")
             .searchable(text: $searchMedicine, placement: .navigationBarDrawer(displayMode: .always))
         }
+        .navigationViewStyle(.stack)
     }
     
     var searchMedicineResults: [String] {

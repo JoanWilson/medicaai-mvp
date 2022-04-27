@@ -57,5 +57,6 @@ struct SavedMedicinesView: View {
 struct SavedMedicinesView_Previews: PreviewProvider {
     static var previews: some View {
         SavedMedicinesView()
+        
     }
 }
