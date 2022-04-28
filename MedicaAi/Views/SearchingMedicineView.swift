@@ -19,8 +19,8 @@ struct SearchingMedicineView: View {
                 Section {
                     ForEach(searchMedicineResults, id: \.self) { medicine in
                         NavigationLink {
-                            MedicineMapView()
-//                            MedicineView(medicineName: medicine)
+//                            MedicineMapView()
+                            MedicineMapView(medicineName: medicine)
                         } label: {
                             Text(medicine)
                         }

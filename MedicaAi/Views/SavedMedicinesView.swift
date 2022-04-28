@@ -26,7 +26,7 @@ struct SavedMedicinesView: View {
                     Section {
                         ForEach(searchMedicineResults, id: \.self) { medicine in
                             NavigationLink {
-                                MedicineView(medicineName: medicine)
+                                MedicineMapView(medicineName: medicine)
                             } label: {
                                 Text(medicine)
                             }
